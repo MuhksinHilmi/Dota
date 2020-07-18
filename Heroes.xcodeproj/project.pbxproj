@@ -12,6 +12,24 @@
 		ACCC033124C2845B009D4048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCC033024C2845B009D4048 /* Assets.xcassets */; };
 		ACCC033424C2845B009D4048 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCC033324C2845B009D4048 /* Preview Assets.xcassets */; };
 		ACCC033724C2845B009D4048 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCC033524C2845B009D4048 /* LaunchScreen.storyboard */; };
+		ACCC034424C28AA8009D4048 /* NetworkAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC034324C28AA8009D4048 /* NetworkAdapter.swift */; };
+		ACCC034724C28AFC009D4048 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC034624C28AFC009D4048 /* Environment.swift */; };
+		ACCC034924C28B7E009D4048 /* DataApp.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACCC034824C28B7E009D4048 /* DataApp.plist */; };
+		ACCC035924C2A72A009D4048 /* UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC035824C2A72A009D4048 /* UIStackView.swift */; };
+		ACCC035B24C2A74F009D4048 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC035A24C2A74F009D4048 /* UIView.swift */; };
+		ACCC035F24C2AA51009D4048 /* ServiceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC035E24C2AA51009D4048 /* ServiceAPI.swift */; };
+		ACCC036824C2AC1E009D4048 /* MainModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC036124C2AC1E009D4048 /* MainModule.swift */; };
+		ACCC036924C2AC1E009D4048 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC036224C2AC1E009D4048 /* MainPresenter.swift */; };
+		ACCC036A24C2AC1E009D4048 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC036324C2AC1E009D4048 /* MainRouter.swift */; };
+		ACCC036B24C2AC1E009D4048 /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC036424C2AC1E009D4048 /* MainInteractor.swift */; };
+		ACCC036C24C2AC1E009D4048 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC036524C2AC1E009D4048 /* MainView.swift */; };
+		ACCC036D24C2AC1E009D4048 /* MainProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC036624C2AC1E009D4048 /* MainProtocol.swift */; };
+		ACCC036E24C2AC1E009D4048 /* MainEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC036724C2AC1E009D4048 /* MainEntity.swift */; };
+		ACCC037924C2E0DC009D4048 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC037824C2E0DC009D4048 /* CoreDataStack.swift */; };
+		ACCC039824C39713009D4048 /* RolesEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC039424C39713009D4048 /* RolesEntity+CoreDataClass.swift */; };
+		ACCC039924C39713009D4048 /* RolesEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC039524C39713009D4048 /* RolesEntity+CoreDataProperties.swift */; };
+		ACCC039A24C39713009D4048 /* HeroesEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC039624C39713009D4048 /* HeroesEntity+CoreDataClass.swift */; };
+		ACCC039B24C39713009D4048 /* HeroesEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC039724C39713009D4048 /* HeroesEntity+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +40,24 @@
 		ACCC033324C2845B009D4048 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ACCC033624C2845B009D4048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACCC033824C2845B009D4048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACCC034324C28AA8009D4048 /* NetworkAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAdapter.swift; sourceTree = "<group>"; };
+		ACCC034624C28AFC009D4048 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		ACCC034824C28B7E009D4048 /* DataApp.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DataApp.plist; sourceTree = "<group>"; };
+		ACCC035824C2A72A009D4048 /* UIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackView.swift; sourceTree = "<group>"; };
+		ACCC035A24C2A74F009D4048 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		ACCC035E24C2AA51009D4048 /* ServiceAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAPI.swift; sourceTree = "<group>"; };
+		ACCC036124C2AC1E009D4048 /* MainModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModule.swift; sourceTree = "<group>"; };
+		ACCC036224C2AC1E009D4048 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		ACCC036324C2AC1E009D4048 /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		ACCC036424C2AC1E009D4048 /* MainInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
+		ACCC036524C2AC1E009D4048 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		ACCC036624C2AC1E009D4048 /* MainProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainProtocol.swift; sourceTree = "<group>"; };
+		ACCC036724C2AC1E009D4048 /* MainEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainEntity.swift; sourceTree = "<group>"; };
+		ACCC037824C2E0DC009D4048 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		ACCC039424C39713009D4048 /* RolesEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RolesEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		ACCC039524C39713009D4048 /* RolesEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RolesEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		ACCC039624C39713009D4048 /* HeroesEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HeroesEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		ACCC039724C39713009D4048 /* HeroesEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HeroesEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +113,8 @@
 		ACCC033E24C2872F009D4048 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				ACCC034324C28AA8009D4048 /* NetworkAdapter.swift */,
+				ACCC035E24C2AA51009D4048 /* ServiceAPI.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -84,6 +122,7 @@
 		ACCC033F24C28764009D4048 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				ACCC036024C2ABF3009D4048 /* Main */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -91,6 +130,8 @@
 		ACCC034024C2876B009D4048 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				ACCC037724C2E0AD009D4048 /* Storage */,
+				ACCC034524C28AD4009D4048 /* Envi */,
 				ACCC034224C287AD009D4048 /* Helper */,
 				ACCC034124C287A0009D4048 /* UIExtension */,
 				ACCC033E24C2872F009D4048 /* Networking */,
@@ -101,6 +142,8 @@
 		ACCC034124C287A0009D4048 /* UIExtension */ = {
 			isa = PBXGroup;
 			children = (
+				ACCC035824C2A72A009D4048 /* UIStackView.swift */,
+				ACCC035A24C2A74F009D4048 /* UIView.swift */,
 			);
 			path = UIExtension;
 			sourceTree = "<group>";
@@ -110,6 +153,49 @@
 			children = (
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		ACCC034524C28AD4009D4048 /* Envi */ = {
+			isa = PBXGroup;
+			children = (
+				ACCC034624C28AFC009D4048 /* Environment.swift */,
+				ACCC034824C28B7E009D4048 /* DataApp.plist */,
+			);
+			path = Envi;
+			sourceTree = "<group>";
+		};
+		ACCC036024C2ABF3009D4048 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				ACCC038A24C38D3D009D4048 /* Views */,
+				ACCC036124C2AC1E009D4048 /* MainModule.swift */,
+				ACCC036224C2AC1E009D4048 /* MainPresenter.swift */,
+				ACCC036324C2AC1E009D4048 /* MainRouter.swift */,
+				ACCC036424C2AC1E009D4048 /* MainInteractor.swift */,
+				ACCC036624C2AC1E009D4048 /* MainProtocol.swift */,
+				ACCC036724C2AC1E009D4048 /* MainEntity.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		ACCC037724C2E0AD009D4048 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				ACCC039424C39713009D4048 /* RolesEntity+CoreDataClass.swift */,
+				ACCC039524C39713009D4048 /* RolesEntity+CoreDataProperties.swift */,
+				ACCC039624C39713009D4048 /* HeroesEntity+CoreDataClass.swift */,
+				ACCC039724C39713009D4048 /* HeroesEntity+CoreDataProperties.swift */,
+				ACCC037824C2E0DC009D4048 /* CoreDataStack.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		ACCC038A24C38D3D009D4048 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ACCC036524C2AC1E009D4048 /* MainView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +258,7 @@
 			files = (
 				ACCC033724C2845B009D4048 /* LaunchScreen.storyboard in Resources */,
 				ACCC033424C2845B009D4048 /* Preview Assets.xcassets in Resources */,
+				ACCC034924C28B7E009D4048 /* DataApp.plist in Resources */,
 				ACCC033124C2845B009D4048 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,8 +270,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACCC039824C39713009D4048 /* RolesEntity+CoreDataClass.swift in Sources */,
+				ACCC037924C2E0DC009D4048 /* CoreDataStack.swift in Sources */,
+				ACCC039924C39713009D4048 /* RolesEntity+CoreDataProperties.swift in Sources */,
+				ACCC034424C28AA8009D4048 /* NetworkAdapter.swift in Sources */,
+				ACCC036C24C2AC1E009D4048 /* MainView.swift in Sources */,
+				ACCC034724C28AFC009D4048 /* Environment.swift in Sources */,
+				ACCC035924C2A72A009D4048 /* UIStackView.swift in Sources */,
 				ACCC032824C28456009D4048 /* AppDelegate.swift in Sources */,
+				ACCC036924C2AC1E009D4048 /* MainPresenter.swift in Sources */,
+				ACCC035B24C2A74F009D4048 /* UIView.swift in Sources */,
+				ACCC035F24C2AA51009D4048 /* ServiceAPI.swift in Sources */,
+				ACCC036824C2AC1E009D4048 /* MainModule.swift in Sources */,
+				ACCC039A24C39713009D4048 /* HeroesEntity+CoreDataClass.swift in Sources */,
+				ACCC036D24C2AC1E009D4048 /* MainProtocol.swift in Sources */,
+				ACCC036A24C2AC1E009D4048 /* MainRouter.swift in Sources */,
 				ACCC032D24C28456009D4048 /* Heroes.xcdatamodeld in Sources */,
+				ACCC036B24C2AC1E009D4048 /* MainInteractor.swift in Sources */,
+				ACCC039B24C39713009D4048 /* HeroesEntity+CoreDataProperties.swift in Sources */,
+				ACCC036E24C2AC1E009D4048 /* MainEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +426,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Heroes/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Heroes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -341,6 +446,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Heroes/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Heroes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -354,6 +460,240 @@
 			};
 			name = Release;
 		};
+		ACCC034A24C29D5C009D4048 /* Debug Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug Staging";
+		};
+		ACCC034B24C29D5C009D4048 /* Debug Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Heroes/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Heroes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.co.hilmi.Heroes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug Staging";
+		};
+		ACCC034C24C29D63009D4048 /* Debug Develop */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug Develop";
+		};
+		ACCC034D24C29D63009D4048 /* Debug Develop */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Heroes/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Heroes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.co.hilmi.Heroes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug Develop";
+		};
+		ACCC034E24C29D6A009D4048 /* Release Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release Staging";
+		};
+		ACCC034F24C29D6A009D4048 /* Release Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Heroes/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Heroes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.co.hilmi.Heroes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release Staging";
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -361,7 +701,10 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ACCC033924C2845B009D4048 /* Debug */,
+				ACCC034C24C29D63009D4048 /* Debug Develop */,
+				ACCC034A24C29D5C009D4048 /* Debug Staging */,
 				ACCC033A24C2845B009D4048 /* Release */,
+				ACCC034E24C29D6A009D4048 /* Release Staging */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -370,7 +713,10 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ACCC033C24C2845B009D4048 /* Debug */,
+				ACCC034D24C29D63009D4048 /* Debug Develop */,
+				ACCC034B24C29D5C009D4048 /* Debug Staging */,
 				ACCC033D24C2845B009D4048 /* Release */,
+				ACCC034F24C29D6A009D4048 /* Release Staging */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

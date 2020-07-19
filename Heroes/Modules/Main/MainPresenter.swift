@@ -14,6 +14,7 @@ class MainPresenter {
     weak private var view: MainViewProtocol?
     private var interactor: MainInteractorProtocol
     private var wireframe: MainRouterProtocol
+    var getRoles: [String]?
     
     init(view: MainViewProtocol, interactor: MainInteractorProtocol, router: MainRouterProtocol) {
         self.view = view
@@ -34,26 +35,35 @@ class MainPresenter {
                 }
             }
         })
-        view?.getRoles(roles: listOfRole)
+        getRoles = listOfRole
+        getRoles?.append("All")
+        view?.reloadRole()
     }
 }
 
 extension MainPresenter: MainPresenterProtocol {
     func fetchData() {
-        let loadData = interactor.loadHeroes()
-        if loadData?.count ?? 0 > 0 {
-            view?.getDataHeroes(heroes: loadData)
-            getDataRoles(loadData: loadData)
-        } else {
-            interactor.fetchAPI()
-        }
+        interactor.loadAllHeroes()
     }
 }
 
 extension MainPresenter: IMainProtocol {
+    func reloadAllHeroes(hero: [HeroesEntity]?) {
+        if hero?.count ?? 0 > 0 {
+            view?.getDataHeroes(heroes: hero)
+            getDataRoles(loadData: hero)
+        } else {
+            interactor.fetchAPI()
+        }
+    }
+    func reloadHeroesByRole(hero: [HeroesEntity]?) {
+        view?.getDataHeroes(heroes: hero)
+    }
     func reloadHeroes() {
-        let loadData = interactor.loadHeroes()
-        getDataRoles(loadData: loadData)
-        view?.getDataHeroes(heroes: loadData)
+        interactor.loadAllHeroes()
+    }
+    
+    func errorMessage(msg: String) {
+        view?.handleError(err: msg)
     }
 }

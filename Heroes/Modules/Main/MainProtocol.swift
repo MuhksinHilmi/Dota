@@ -10,26 +10,32 @@ import UIKit
 
 //MARK: View to Presenter
 protocol MainPresenterProtocol: class {
+    var getRoles: [String]? {get set}
     func fetchData()
 }
 
 //MARK: Presenter to Interactor
 protocol MainInteractorProtocol: class {
-    var presenter:IMainProtocol? {get set}
+    var presenter: IMainProtocol? {get set}
+    func loadHeroesByRole(role: String)
     func loadRoles() -> [RolesEntity]?
-    func loadHeroes() -> [HeroesEntity]?
+    func loadAllHeroes()
     func fetchAPI()
 }
 
 //MARK: Interactor to Presenter
 protocol IMainProtocol: class {
+    func reloadHeroesByRole(hero: [HeroesEntity]?)
+    func reloadAllHeroes(hero: [HeroesEntity]?)
     func reloadHeroes()
+    func errorMessage(msg: String)
 }
 
 //MARK: Presenter to View
 protocol MainViewProtocol: class {
     func getDataHeroes(heroes: [HeroesEntity]?)
-    func getRoles(roles: [String])
+    func reloadRole()
+    func handleError(err: String)
 }
 
 //MARK: Presenter to Router (aka: Wireframe) -

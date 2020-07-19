@@ -20,6 +20,11 @@ struct NetworkAdapter<T: Codable> {
         var request = URLRequest(url: url)
         request.httpMethod = "GET"
         
+        if !Reachability.isConnectedToNetwork() {
+            errorCallback("no internet connection")
+            return
+        }
+        
         let tasks = URLSession.shared.dataTask(with: request){ data, response, error in
             guard let unwrappedData = data else { return }
             do {

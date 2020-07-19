@@ -12,7 +12,10 @@ import UIKit
 class MainModule: UIViewController {
     
     private var presenter: MainPresenterProtocol!
-    
+    lazy var mainView: MainView = {
+        guard let view = view as? MainView else { return MainView()}
+        return view
+    }()
     convenience init() {
         self.init(nibName:nil, bundle:nil)
         presenter = MainPresenter(
@@ -32,15 +35,17 @@ class MainModule: UIViewController {
         super.viewDidLoad()
         presenter.fetchData()
     }
-    
 }
 
 // MARK: - extending MainView to implement it's protocol
 extension MainModule: MainViewProtocol {
-    func getRoles(roles: [String]) {
-        print(roles)
+    func reloadRole() {
+        mainView.reloadDataRoles()
     }
     func getDataHeroes(heroes: [HeroesEntity]?) {
        
+    }
+    func handleError(err: String) {
+        mainView.errorLabel.text = err
     }
 }

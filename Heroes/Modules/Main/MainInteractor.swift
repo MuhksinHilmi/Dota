@@ -11,6 +11,7 @@ import CoreData
 
 class MainInteractor: MainInteractorProtocol {
     var presenter: IMainProtocol?
+    var commitPredicate: NSPredicate?
     
     private let service: NetworkAdapter<MainEntity>
     
@@ -18,14 +19,25 @@ class MainInteractor: MainInteractorProtocol {
         self.service = service
     }
     
-    func loadHeroes() -> [HeroesEntity]? {
+    private func fetchReqHero(req: NSFetchRequest<HeroesEntity>) -> [HeroesEntity]? {
         let managedContext = CoreDataStack.shared.persistentContainer.viewContext
-        let fetchRequest = NSFetchRequest<HeroesEntity>(entityName: "HeroesEntity")
-        do { return try managedContext.fetch(fetchRequest) }
+        do { return try managedContext.fetch(req) }
         catch let error {
-            print(error)
+            self.presenter?.errorMessage(msg: error.localizedDescription)
             return nil
         }
+    }
+    
+    func loadHeroesByRole(role: String) {
+        let fetchRequest = NSFetchRequest<HeroesEntity>(entityName: "HeroesEntity")
+        fetchRequest.predicate = commitPredicate
+        commitPredicate = NSPredicate(format: "roles CONTAINS[c] %@", role)
+        presenter?.reloadHeroesByRole(hero: fetchReqHero(req: fetchRequest))
+    }
+    
+    func loadAllHeroes() {
+        let fetchRequest = NSFetchRequest<HeroesEntity>(entityName: "HeroesEntity")
+        presenter?.reloadAllHeroes(hero: fetchReqHero(req: fetchRequest))
     }
     
     func loadRoles() -> [RolesEntity]? {
@@ -33,7 +45,7 @@ class MainInteractor: MainInteractorProtocol {
         let fetchRequest = NSFetchRequest<RolesEntity>(entityName: "RolesEntity")
         do { return try managedContext.fetch(fetchRequest) }
         catch let error {
-            print(error)
+            self.presenter?.errorMessage(msg: error.localizedDescription)
             return nil
         }
     }
@@ -47,9 +59,9 @@ class MainInteractor: MainInteractorProtocol {
                 }
             }
         }, error: { (err) in
-            print(err)
+            self.presenter?.errorMessage(msg: err)
         }) { (Err) in
-            print("Failed")
+            self.presenter?.errorMessage(msg: "Failed")
         }
     }
 }

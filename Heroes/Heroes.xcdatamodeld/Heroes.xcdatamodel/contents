@@ -1,4 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="HeroesEntity" representedClassName="HeroesEntity" syncable="YES">
+        <attribute name="armor" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="atkMaks" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="atkMin" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="attr" optional="YES" attributeType="String"/>
+        <attribute name="health" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="icon" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="img" optional="YES" attributeType="String"/>
+        <attribute name="mana" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="nickName" optional="YES" attributeType="String"/>
+        <attribute name="speed" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <relationship name="roles" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="RolesEntity" inverseName="ofHeroes" inverseEntity="RolesEntity"/>
+    </entity>
+    <entity name="RolesEntity" representedClassName="RolesEntity" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="ofHeroes" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HeroesEntity" inverseName="roles" inverseEntity="HeroesEntity"/>
+    </entity>
+    <elements>
+        <element name="HeroesEntity" positionX="-54" positionY="9" width="128" height="253"/>
+        <element name="RolesEntity" positionX="257.0390625" positionY="180.21875" width="145.58984375" height="73"/>
+    </elements>
 </model>

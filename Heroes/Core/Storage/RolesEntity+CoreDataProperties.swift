@@ -12,7 +12,6 @@ import CoreData
 
 
 extension RolesEntity {
-
     @nonobjc public class func fetchRequest() -> NSFetchRequest<RolesEntity> {
         return NSFetchRequest<RolesEntity>(entityName: "RolesEntity")
     }

@@ -43,6 +43,23 @@
 		ACCC03CF24C3A3B2009D4048 /* ShowCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC03CE24C3A3B2009D4048 /* ShowCollectionViewCell.swift */; };
 		ACCC03D124C3AE1D009D4048 /* FilterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC03D024C3AE1D009D4048 /* FilterTableViewCell.swift */; };
 		ACCC03D324C3AF72009D4048 /* ReachAbility.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC03D224C3AF72009D4048 /* ReachAbility.swift */; };
+		ACCC03E124C3E08E009D4048 /* MainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC03E024C3E08E009D4048 /* MainTests.swift */; };
+		ACCC03E324C4004B009D4048 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC03E224C4004B009D4048 /* MockData.swift */; };
+		ACCC03ED24C42928009D4048 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC03EC24C42928009D4048 /* Array.swift */; };
+		ACCC03F624C477D9009D4048 /* DetailHeroModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC03EF24C477D9009D4048 /* DetailHeroModule.swift */; };
+		ACCC03F724C477D9009D4048 /* DetailHeroPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC03F024C477D9009D4048 /* DetailHeroPresenter.swift */; };
+		ACCC03F824C477D9009D4048 /* DetailHeroRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC03F124C477D9009D4048 /* DetailHeroRouter.swift */; };
+		ACCC03F924C477D9009D4048 /* DetailHeroInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC03F224C477D9009D4048 /* DetailHeroInteractor.swift */; };
+		ACCC03FA24C477D9009D4048 /* DetailHeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC03F324C477D9009D4048 /* DetailHeroView.swift */; };
+		ACCC03FB24C477D9009D4048 /* DetailHeroProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC03F424C477D9009D4048 /* DetailHeroProtocol.swift */; };
+		ACCC03FC24C477D9009D4048 /* DetailHeroEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC03F524C477D9009D4048 /* DetailHeroEntity.swift */; };
+		ACCC03FF24C484C2009D4048 /* ProfileHeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC03FE24C484C2009D4048 /* ProfileHeroView.swift */; };
+		ACCC040124C484FA009D4048 /* StatusHeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC040024C484FA009D4048 /* StatusHeroView.swift */; };
+		ACCC040324C4851F009D4048 /* SimilarHeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC040224C4851F009D4048 /* SimilarHeroView.swift */; };
+		ACCC040E24C4FF68009D4048 /* StatusViewCollectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC040D24C4FF68009D4048 /* StatusViewCollectionDelegate.swift */; };
+		ACCC041024C4FF8B009D4048 /* StatusViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC040F24C4FF8B009D4048 /* StatusViewCollectionViewCell.swift */; };
+		ACCC041224C50062009D4048 /* StatusEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC041124C50062009D4048 /* StatusEnum.swift */; };
+		ACCC041524C5103E009D4048 /* SimilarHeroViewCollectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC041424C5103E009D4048 /* SimilarHeroViewCollectionDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +113,23 @@
 		ACCC03CE24C3A3B2009D4048 /* ShowCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCollectionViewCell.swift; sourceTree = "<group>"; };
 		ACCC03D024C3AE1D009D4048 /* FilterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTableViewCell.swift; sourceTree = "<group>"; };
 		ACCC03D224C3AF72009D4048 /* ReachAbility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachAbility.swift; sourceTree = "<group>"; };
+		ACCC03E024C3E08E009D4048 /* MainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTests.swift; sourceTree = "<group>"; };
+		ACCC03E224C4004B009D4048 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		ACCC03EC24C42928009D4048 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		ACCC03EF24C477D9009D4048 /* DetailHeroModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeroModule.swift; sourceTree = "<group>"; };
+		ACCC03F024C477D9009D4048 /* DetailHeroPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeroPresenter.swift; sourceTree = "<group>"; };
+		ACCC03F124C477D9009D4048 /* DetailHeroRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeroRouter.swift; sourceTree = "<group>"; };
+		ACCC03F224C477D9009D4048 /* DetailHeroInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeroInteractor.swift; sourceTree = "<group>"; };
+		ACCC03F324C477D9009D4048 /* DetailHeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeroView.swift; sourceTree = "<group>"; };
+		ACCC03F424C477D9009D4048 /* DetailHeroProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeroProtocol.swift; sourceTree = "<group>"; };
+		ACCC03F524C477D9009D4048 /* DetailHeroEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeroEntity.swift; sourceTree = "<group>"; };
+		ACCC03FE24C484C2009D4048 /* ProfileHeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeroView.swift; sourceTree = "<group>"; };
+		ACCC040024C484FA009D4048 /* StatusHeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusHeroView.swift; sourceTree = "<group>"; };
+		ACCC040224C4851F009D4048 /* SimilarHeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimilarHeroView.swift; sourceTree = "<group>"; };
+		ACCC040D24C4FF68009D4048 /* StatusViewCollectionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewCollectionDelegate.swift; sourceTree = "<group>"; };
+		ACCC040F24C4FF8B009D4048 /* StatusViewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewCollectionViewCell.swift; sourceTree = "<group>"; };
+		ACCC041124C50062009D4048 /* StatusEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusEnum.swift; sourceTree = "<group>"; };
+		ACCC041424C5103E009D4048 /* SimilarHeroViewCollectionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimilarHeroViewCollectionDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +204,7 @@
 		ACCC033F24C28764009D4048 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				ACCC03EE24C477BB009D4048 /* DetailHero */,
 				ACCC036024C2ABF3009D4048 /* Main */,
 			);
 			path = Modules;
@@ -193,6 +228,7 @@
 				ACCC03AA24C39D3F009D4048 /* String.swift */,
 				ACCC035824C2A72A009D4048 /* UIStackView.swift */,
 				ACCC035A24C2A74F009D4048 /* UIView.swift */,
+				ACCC03EC24C42928009D4048 /* Array.swift */,
 			);
 			path = UIExtension;
 			sourceTree = "<group>";
@@ -269,6 +305,8 @@
 			children = (
 				ACCC03BF24C3A1D8009D4048 /* HeroesTests.swift */,
 				ACCC03C124C3A1D8009D4048 /* Info.plist */,
+				ACCC03E024C3E08E009D4048 /* MainTests.swift */,
+				ACCC03E224C4004B009D4048 /* MockData.swift */,
 			);
 			path = HeroesTests;
 			sourceTree = "<group>";
@@ -280,6 +318,51 @@
 				ACCC03CE24C3A3B2009D4048 /* ShowCollectionViewCell.swift */,
 			);
 			path = "MainView+CollectionView";
+			sourceTree = "<group>";
+		};
+		ACCC03EE24C477BB009D4048 /* DetailHero */ = {
+			isa = PBXGroup;
+			children = (
+				ACCC03FD24C48254009D4048 /* Views */,
+				ACCC03EF24C477D9009D4048 /* DetailHeroModule.swift */,
+				ACCC03F024C477D9009D4048 /* DetailHeroPresenter.swift */,
+				ACCC03F124C477D9009D4048 /* DetailHeroRouter.swift */,
+				ACCC03F224C477D9009D4048 /* DetailHeroInteractor.swift */,
+				ACCC03F424C477D9009D4048 /* DetailHeroProtocol.swift */,
+				ACCC03F524C477D9009D4048 /* DetailHeroEntity.swift */,
+				ACCC041124C50062009D4048 /* StatusEnum.swift */,
+			);
+			path = DetailHero;
+			sourceTree = "<group>";
+		};
+		ACCC03FD24C48254009D4048 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ACCC041324C50FF3009D4048 /* SimilarHero+CollectionView */,
+				ACCC040C24C4FEDD009D4048 /* StatusHeroView+CollectionView */,
+				ACCC03F324C477D9009D4048 /* DetailHeroView.swift */,
+				ACCC03FE24C484C2009D4048 /* ProfileHeroView.swift */,
+				ACCC040024C484FA009D4048 /* StatusHeroView.swift */,
+				ACCC040224C4851F009D4048 /* SimilarHeroView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ACCC040C24C4FEDD009D4048 /* StatusHeroView+CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				ACCC040D24C4FF68009D4048 /* StatusViewCollectionDelegate.swift */,
+				ACCC040F24C4FF8B009D4048 /* StatusViewCollectionViewCell.swift */,
+			);
+			path = "StatusHeroView+CollectionView";
+			sourceTree = "<group>";
+		};
+		ACCC041324C50FF3009D4048 /* SimilarHero+CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				ACCC041424C5103E009D4048 /* SimilarHeroViewCollectionDelegate.swift */,
+			);
+			path = "SimilarHero+CollectionView";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -384,21 +467,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACCC03F624C477D9009D4048 /* DetailHeroModule.swift in Sources */,
 				ACCC03B124C39E06009D4048 /* UICollectionView.swift in Sources */,
 				ACCC039824C39713009D4048 /* RolesEntity+CoreDataClass.swift in Sources */,
 				ACCC03B324C39F61009D4048 /* MainView+TableViewDelegate.swift in Sources */,
 				ACCC037924C2E0DC009D4048 /* CoreDataStack.swift in Sources */,
 				ACCC03D324C3AF72009D4048 /* ReachAbility.swift in Sources */,
+				ACCC03ED24C42928009D4048 /* Array.swift in Sources */,
+				ACCC03FA24C477D9009D4048 /* DetailHeroView.swift in Sources */,
+				ACCC040324C4851F009D4048 /* SimilarHeroView.swift in Sources */,
+				ACCC03FC24C477D9009D4048 /* DetailHeroEntity.swift in Sources */,
 				ACCC039924C39713009D4048 /* RolesEntity+CoreDataProperties.swift in Sources */,
+				ACCC041024C4FF8B009D4048 /* StatusViewCollectionViewCell.swift in Sources */,
 				ACCC034424C28AA8009D4048 /* NetworkAdapter.swift in Sources */,
 				ACCC036C24C2AC1E009D4048 /* MainView.swift in Sources */,
 				ACCC03AF24C39DE5009D4048 /* UITableView.swift in Sources */,
+				ACCC040E24C4FF68009D4048 /* StatusViewCollectionDelegate.swift in Sources */,
 				ACCC034724C28AFC009D4048 /* Environment.swift in Sources */,
 				ACCC03D124C3AE1D009D4048 /* FilterTableViewCell.swift in Sources */,
+				ACCC03F924C477D9009D4048 /* DetailHeroInteractor.swift in Sources */,
 				ACCC035924C2A72A009D4048 /* UIStackView.swift in Sources */,
 				ACCC032824C28456009D4048 /* AppDelegate.swift in Sources */,
+				ACCC041224C50062009D4048 /* StatusEnum.swift in Sources */,
+				ACCC03FF24C484C2009D4048 /* ProfileHeroView.swift in Sources */,
+				ACCC03F724C477D9009D4048 /* DetailHeroPresenter.swift in Sources */,
+				ACCC03FB24C477D9009D4048 /* DetailHeroProtocol.swift in Sources */,
+				ACCC041524C5103E009D4048 /* SimilarHeroViewCollectionDelegate.swift in Sources */,
 				ACCC036924C2AC1E009D4048 /* MainPresenter.swift in Sources */,
 				ACCC03B624C39FAF009D4048 /* MainView+TableViewDataSource.swift in Sources */,
+				ACCC040124C484FA009D4048 /* StatusHeroView.swift in Sources */,
 				ACCC03CD24C3A39A009D4048 /* MainView+CollectionViewDelegate.swift in Sources */,
 				ACCC03CF24C3A3B2009D4048 /* ShowCollectionViewCell.swift in Sources */,
 				ACCC03A524C39CBE009D4048 /* CustomImageView.swift in Sources */,
@@ -407,6 +504,7 @@
 				ACCC03AB24C39D3F009D4048 /* String.swift in Sources */,
 				ACCC035F24C2AA51009D4048 /* ServiceAPI.swift in Sources */,
 				ACCC036824C2AC1E009D4048 /* MainModule.swift in Sources */,
+				ACCC03F824C477D9009D4048 /* DetailHeroRouter.swift in Sources */,
 				ACCC039A24C39713009D4048 /* HeroesEntity+CoreDataClass.swift in Sources */,
 				ACCC036D24C2AC1E009D4048 /* MainProtocol.swift in Sources */,
 				ACCC036A24C2AC1E009D4048 /* MainRouter.swift in Sources */,
@@ -422,6 +520,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACCC03E124C3E08E009D4048 /* MainTests.swift in Sources */,
+				ACCC03E324C4004B009D4048 /* MockData.swift in Sources */,
 				ACCC03C024C3A1D8009D4048 /* HeroesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

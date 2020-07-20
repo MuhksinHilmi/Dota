@@ -12,13 +12,14 @@ import UIKit
 protocol MainPresenterProtocol: class {
     var getRoles: [String]? {get set}
     func fetchData()
+    func fetchDataByRole(role: String)
+    func goToDetailHero(heroEntity: HeroesEntity)
 }
 
 //MARK: Presenter to Interactor
 protocol MainInteractorProtocol: class {
     var presenter: IMainProtocol? {get set}
     func loadHeroesByRole(role: String)
-    func loadRoles() -> [RolesEntity]?
     func loadAllHeroes()
     func fetchAPI()
 }
@@ -36,9 +37,11 @@ protocol MainViewProtocol: class {
     func getDataHeroes(heroes: [HeroesEntity]?)
     func reloadRole()
     func handleError(err: String)
+    func setTitle(title: String)
 }
 
 //MARK: Presenter to Router (aka: Wireframe) -
 protocol MainRouterProtocol {
     var viewController: UIViewController? {get set}
+    func goToDetailHero(heroEntity: HeroesEntity)
 }

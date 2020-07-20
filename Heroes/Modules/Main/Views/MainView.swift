@@ -36,7 +36,7 @@ class MainView: UIView {
         cv.backgroundColor = .clear
         cv.dataSource = showHeroSource!
         cv.delegate = self
-        cv.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+        cv.contentInset = UIEdgeInsets(top: 15, left: 0, bottom: 15, right: 0)
         cv.scrollIndicatorInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
         cv.registerCellClass(ShowCollectionViewCell.self)
         return cv
@@ -64,8 +64,9 @@ class MainView: UIView {
         filterTableView.reloadData()
     }
     
-    func setDataHeroes(heroes: [HeroesEntity]) {
-        showHeroSource?.models = heroes
+    func setDataHeroes(heroes: [HeroesEntity]?) {
+        showHeroSource?.models = heroes!
+        showCollectionView.reloadData()
     }
     
     required init?(coder: NSCoder) {

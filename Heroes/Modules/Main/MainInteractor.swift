@@ -30,24 +30,18 @@ class MainInteractor: MainInteractorProtocol {
     
     func loadHeroesByRole(role: String) {
         let fetchRequest = NSFetchRequest<HeroesEntity>(entityName: "HeroesEntity")
-        fetchRequest.predicate = commitPredicate
-        commitPredicate = NSPredicate(format: "roles CONTAINS[c] %@", role)
+        if !role.isEmpty {
+            commitPredicate = NSPredicate(format: "roles.name CONTAINS[c] %@", role)
+            fetchRequest.predicate = commitPredicate
+        }
+        fetchRequest.returnsDistinctResults = true
         presenter?.reloadHeroesByRole(hero: fetchReqHero(req: fetchRequest))
     }
     
     func loadAllHeroes() {
         let fetchRequest = NSFetchRequest<HeroesEntity>(entityName: "HeroesEntity")
+        fetchRequest.returnsDistinctResults = true
         presenter?.reloadAllHeroes(hero: fetchReqHero(req: fetchRequest))
-    }
-    
-    func loadRoles() -> [RolesEntity]? {
-        let managedContext = CoreDataStack.shared.persistentContainer.viewContext
-        let fetchRequest = NSFetchRequest<RolesEntity>(entityName: "RolesEntity")
-        do { return try managedContext.fetch(fetchRequest) }
-        catch let error {
-            self.presenter?.errorMessage(msg: error.localizedDescription)
-            return nil
-        }
     }
     
     func fetchAPI() {

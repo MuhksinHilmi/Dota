@@ -12,4 +12,9 @@ import UIKit
 class MainRouter: MainRouterProtocol {
     var viewController: UIViewController?
     
+    func goToDetailHero(heroEntity: HeroesEntity) {
+        let controller = DetailHeroModule()
+        controller.presenter.heroDetail = heroEntity
+        viewController?.navigationController?.pushViewController(controller, animated: true)
+    }
 }

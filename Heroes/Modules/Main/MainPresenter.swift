@@ -45,6 +45,13 @@ extension MainPresenter: MainPresenterProtocol {
     func fetchData() {
         interactor.loadAllHeroes()
     }
+    func fetchDataByRole(role: String) {
+        interactor.loadHeroesByRole(role: role == "All" ? "" : role)
+        view?.setTitle(title: role)
+    }
+    func goToDetailHero(heroEntity: HeroesEntity) {
+        wireframe.goToDetailHero(heroEntity: heroEntity)
+    }
 }
 
 extension MainPresenter: IMainProtocol {

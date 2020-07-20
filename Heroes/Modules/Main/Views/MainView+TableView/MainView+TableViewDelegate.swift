@@ -9,5 +9,9 @@
 import UIKit
 
 extension MainView: UITableViewDelegate {
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let roles = presenter.getRoles {
+            presenter.fetchDataByRole(role: roles[indexPath.item])
+        }
+    }
 }

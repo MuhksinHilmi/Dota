@@ -34,18 +34,30 @@ class MainModule: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         presenter.fetchData()
+        setTitle(title: "All")
+    }
+    
+    func setTitle(title: String) {
+        self.title = title
     }
 }
 
 // MARK: - extending MainView to implement it's protocol
 extension MainModule: MainViewProtocol {
     func reloadRole() {
-        mainView.reloadDataRoles()
+        DispatchQueue.main.async {
+            self.mainView.reloadDataRoles()
+        }
     }
+    
     func getDataHeroes(heroes: [HeroesEntity]?) {
-       
+       DispatchQueue.main.async {
+           self.mainView.setDataHeroes(heroes: heroes)
+       }
     }
     func handleError(err: String) {
-        mainView.errorLabel.text = err
+        DispatchQueue.main.async {
+            self.mainView.errorLabel.text = err
+        }
     }
 }

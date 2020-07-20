@@ -14,7 +14,7 @@ enum ServiceAPI {
     var urlPath: String {
         switch self {
         case .heroes:
-            return "api/herostats"
+            return "/api/herostats"
         }
     }
     

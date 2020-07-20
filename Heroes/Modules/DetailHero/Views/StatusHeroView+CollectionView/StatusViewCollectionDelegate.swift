@@ -1,35 +1,30 @@
 //
-//  MainView+CollectionViewDelegate.swift
+//  StatusViewCollectionDelegate.swift
 //  Heroes
 //
-//  Created by Muhksin Hilmi on 19/07/2020.
+//  Created by Muhksin Hilmi on 20/07/2020.
 //  Copyright © 2020 LevUp. All rights reserved.
 //
 
 import UIKit
 
-extension MainView: UICollectionViewDelegateFlowLayout {
+extension StatusHeroView: UICollectionViewDelegateFlowLayout {
     func setDataResource() {
-        showHeroSource = CollectionDataSource(models: [], configureCell: { (cell, models, indexPath)  -> ShowCollectionViewCell in
+        showHeroSource = CollectionDataSource(models: [], configureCell: { (cell, models, indexPath)  -> StatusViewCollectionViewCell in
             cell.configureCell(entity: models[indexPath.item])
             return cell
         })
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
-        return 20
+        return 10
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-        return 20
+        return 10
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: 120, height: 130)
-    }
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        if let heroEntity = showHeroSource?.models[indexPath.item] {
-            presenter.goToDetailHero(heroEntity: heroEntity)
-        }
+        return CGSize(width: 130, height: 70)
     }
 }

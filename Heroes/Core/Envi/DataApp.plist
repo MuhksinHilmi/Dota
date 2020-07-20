@@ -3,6 +3,6 @@
 <plist version="1.0">
 <dict>
 	<key>baseUrl</key>
-	<string>https://api.opendota.com/</string>
+	<string>https://api.opendota.com</string>
 </dict>
 </plist>
